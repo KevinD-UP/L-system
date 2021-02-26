@@ -1,0 +1,14 @@
+(library
+ (name lsystems)
+ (modules (:standard \ main))
+ (libraries graphics)
+ (flags :standard -w -27-26-32-33)
+)
+
+
+(executable
+ (name main)
+ (modules main)
+ (libraries graphics graphicspdf lsystems unix)
+ (flags :standard -w -27-26-32-33)
+)
